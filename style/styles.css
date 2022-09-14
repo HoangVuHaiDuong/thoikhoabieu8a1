@@ -1,0 +1,53 @@
+/* Thời Khóa Biểu */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    
+}
+
+th, td {
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: bold;
+}
+
+th {
+    color: yellow;
+}
+
+tr:nth-child(1) {
+    background-color: green;
+}
+
+tr:nth-child(even) {
+    background-color: aqua;
+}
+
+tr:nth-child(3) {
+    background-color: burlywood;
+}
+
+tr:nth-child(5) {
+    background-color: burlywood;
+}
+
+
+/* Thẻ Div Ảnh */
+#boximage1 {
+    width: 500px;
+    border: 0px solid black;
+    padding: 0;
+    margin: auto;
+}
+
+.image1 {
+    width: 500px;
+    height: 500px;
+}
