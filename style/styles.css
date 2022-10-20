@@ -1,4 +1,10 @@
 /* Thời Khóa Biểu */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -47,7 +53,16 @@ tr:nth-child(5) {
     margin: auto;
 }
 
-.image1 {
-    width: 500px;
-    height: 500px;
+body {
+    background-image: url(../image/image1.jpg);
+    /* Kỹ thuật background */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body {
+    position: relative;
+    z-index: 0;
 }
